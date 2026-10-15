@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.9.3](https://github.com/trycua/cua/compare/cua-spaces-v0.9.2...cua-spaces-v0.9.3) (2026-10-15)
+
+
+### Bug Fixes
+
+* **cua-agent-setup:** set up Claude Code on Windows from the app (CUA-1703) ([#5261](https://github.com/trycua/cua/issues/5261)) ([d6cb68a](https://github.com/trycua/cua/commit/d6cb68a27d2226ca5e412e04aded97fbc5f31812))
+* **cua-cli:** open the sign-in URL on Windows without cmd.exe (CUA-1701) ([#5260](https://github.com/trycua/cua/issues/5260)) ([d6cb68a](https://github.com/trycua/cua/commit/d6cb68a27d2226ca5e412e04aded97fbc5f31812))
+* **cua-driver, spacesd:** say why a Windows desktop can't be captured when locked or RDP is disconnected (CUA-1727) ([#5266](https://github.com/trycua/cua/issues/5266)) ([d6cb68a](https://github.com/trycua/cua/commit/d6cb68a27d2226ca5e412e04aded97fbc5f31812))
+* **cua-host:** Windows unattended access without admin rights (CUA-1702) ([#5262](https://github.com/trycua/cua/issues/5262)) ([d6cb68a](https://github.com/trycua/cua/commit/d6cb68a27d2226ca5e412e04aded97fbc5f31812))
+* **cua-spaces:** install or start Docker Desktop from New Space on Windows (CUA-1723) ([#5265](https://github.com/trycua/cua/issues/5265)) ([d6cb68a](https://github.com/trycua/cua/commit/d6cb68a27d2226ca5e412e04aded97fbc5f31812))
+* **cua-spaces:** sign-in completes after a retried browser sign-in (CUA-1728) ([#5268](https://github.com/trycua/cua/issues/5268)) ([d6cb68a](https://github.com/trycua/cua/commit/d6cb68a27d2226ca5e412e04aded97fbc5f31812))
+* **install.ps1:** put cua on PATH and install the app by default on Windows (CUA-1704) ([#5263](https://github.com/trycua/cua/issues/5263)) ([d6cb68a](https://github.com/trycua/cua/commit/d6cb68a27d2226ca5e412e04aded97fbc5f31812))
+* **spaces-desktop:** send first-run, sign-in and Space events on Windows and Linux (CUA-1739) ([#5277](https://github.com/trycua/cua/issues/5277)) ([d6cb68a](https://github.com/trycua/cua/commit/d6cb68a27d2226ca5e412e04aded97fbc5f31812))
+* **spaces-desktop:** uninstall stops and removes the Windows host service (CUA-1740) ([#5276](https://github.com/trycua/cua/issues/5276)) ([d6cb68a](https://github.com/trycua/cua/commit/d6cb68a27d2226ca5e412e04aded97fbc5f31812))
+
 ## [0.9.2](https://github.com/trycua/cua/compare/cua-spaces-v0.9.1...cua-spaces-v0.9.2) (2026-10-15)
 
 
